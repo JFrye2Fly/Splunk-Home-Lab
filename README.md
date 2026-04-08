@@ -4,7 +4,8 @@
 In this project I enable logging on the Windows Event and PFSense Firewall logs, use Splunk Universal Forwarder to forward them to my Splunk instance. I ingest the logs finally after specifying the logs I want in the inputs.conf file. I then use Splunk to detect Brute Force and suspicious powershell scripts. Then I create alerts!
 
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/11495451-09ac-4999-8cf3-29d046857ff5" />
+<img width="472" height="590" alt="image" src="https://github.com/user-attachments/assets/4194b315-dc45-427f-8fe7-326b550b1006" />
+
 
 
 - Syslog (Linux Event Logs)
