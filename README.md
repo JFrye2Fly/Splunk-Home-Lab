@@ -30,12 +30,20 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
 
 <br><hr><br>
 
+## Logs came in from the Windows VM and Splunk under the INDEX network
+- **Windows Event VM Logs that came in on Splunk:** *Security, System, Application and Microsofot-Winds-Powershell/Operational*
+
+<br>
+  <img width="1852" height="977" alt="image" src="https://github.com/user-attachments/assets/30ceaa08-1b40-41a9-afca-24f89373961e" />
+<br>
+
+- **PF Sesne logs that came in on Splunk:** *Syslog (Firewall, DNS, DHCP events)
+
+<br>
+  <img width="1878" height="785" alt="image" src="https://github.com/user-attachments/assets/aba67fd6-afed-4888-9fe5-990513ca05cc" />
+<br>
 
 
-
-## Attack Maps Before Hardening / Security Controls
-
-## Metrics Before Hardening / Security Controls
 
 ## Conclusion
 
