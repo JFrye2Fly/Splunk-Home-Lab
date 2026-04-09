@@ -91,4 +91,17 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
 
 ## Conclusion
 
-In this project, a mini 
+In this project I set up different VMS including a PFSense Firewall Instance, simulated attacks on my Windows VM and ingested those logs into the Splunk instance on my computer. I then verified that Splunk received those logs and use Splunk queries to find and display that data. 
+
+The most important skills I learned in this project are:
+
+#SplunkUniversal Forwarder
+#Log Ingestion and reasons it may fail (inputs.conf folder is a must!)
+#Configuring Splunk to receive logs
+#Splunk Query Language specifics
+#Patience
+#Using DHCP server from PFSense to dynamically assign IPs to the VMs 
+#Enabling logging on PFSense and sending them to a remote log server (remote log server was the splunk instance
+
+
+## P.S. I still need to add the powershell malicious activity I found!
