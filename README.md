@@ -38,8 +38,6 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
 <br>
 
 - **PF Sesne logs that came in on Splunk:** *Syslog (Firewall, DNS, DHCP events)
-
-<br>
   <img width="1878" height="785" alt="image" src="https://github.com/user-attachments/assets/aba67fd6-afed-4888-9fe5-990513ca05cc" />
 <br>
 
