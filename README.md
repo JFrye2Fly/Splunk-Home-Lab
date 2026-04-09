@@ -10,7 +10,7 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
 ## Project Overview
 <img width="855" height="912" alt="image" src="https://github.com/user-attachments/assets/ef0f4739-d750-4906-9c24-7539c3b7cac1" />
 
-<br><hr><br>
+<hr>
 
 ## Project Setup before the fun
 - Launching a PFSense, Windows and Kali VM
