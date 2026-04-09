@@ -53,7 +53,11 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
   <img width="1887" height="737" alt="Different users attemptin to brute force" src="https://github.com/user-attachments/assets/7ba89f9b-71ce-4b30-88a9-947db1188d1c" />
  <br>
 
+ *Oh snap! Over 20 attempts to login to the Windows VM by 4 different users!*
 
+ <br><hr><br>
+
+ ### WAS THE BRUTE FORCE ATTACK SUCCESSFUL??? 
 
 
 ## Conclusion
