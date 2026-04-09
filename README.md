@@ -31,7 +31,7 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
 <br><hr><br>
 
 ## Logs came in from the Windows VM and Splunk under the INDEX network
-- **Windows Event VM Logs that came in on Splunk:** *Security, System, Application and Microsofot-Winds-Powershell/Operational*
+- **Windows Event VM Logs that came in on Splunk:** *Security, System, Application and Microsofot-Windows-Powershell/Operational*
 
 <br>
   <img width="1890" height="976" alt="image" src="https://github.com/user-attachments/assets/db352b8a-b8f1-47de-b1ba-6b668d015972" />
