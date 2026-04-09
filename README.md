@@ -28,7 +28,7 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
   <br> <img width="946" height="335" alt="Sending Application and Security events also" src="https://github.com/user-attachments/assets/ffa9dea0-0c1f-4b98-a676-4d76f559dc2d" /> <br>
 
 
-<br><hr><br>
+<hr>
 
 ## Logs came in from the Windows VM and Splunk under the INDEX network
 - **Windows Event VM Logs that came in on Splunk:** *Security, System, Application and Microsofot-Winds-Powershell/Operational*
@@ -43,7 +43,9 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
   <img width="1878" height="785" alt="image" src="https://github.com/user-attachments/assets/aba67fd6-afed-4888-9fe5-990513ca05cc" />
 <br>
 
+<hr>
 
+## Detecting Brute Force Attack in Splunk
 
 ## Conclusion
 
