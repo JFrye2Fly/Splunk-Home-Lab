@@ -5,12 +5,12 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
 
 <img width="472" height="590" alt="image" src="https://github.com/user-attachments/assets/4194b315-dc45-427f-8fe7-326b550b1006" />
 
-<hr> 
+<br><hr><br>
 
 ## Project Overview
 <img width="855" height="912" alt="image" src="https://github.com/user-attachments/assets/ef0f4739-d750-4906-9c24-7539c3b7cac1" />
 
-<hr>
+<br><hr><br>
 
 ## Project Setup before the fun
 - Launching a PFSense, Windows and Kali VM
@@ -28,7 +28,7 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
   <br> <img width="946" height="335" alt="Sending Application and Security events also" src="https://github.com/user-attachments/assets/ffa9dea0-0c1f-4b98-a676-4d76f559dc2d" /> <br>
 
 
-<hr>
+<br><hr><br>
 
 ## Logs came in from the Windows VM and Splunk under the INDEX network
 - **Windows Event VM Logs that came in on Splunk:** *Security, System, Application and Microsofot-Winds-Powershell/Operational*
@@ -43,8 +43,7 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
   <img width="1878" height="785" alt="image" src="https://github.com/user-attachments/assets/aba67fd6-afed-4888-9fe5-990513ca05cc" />
 <br>
 
-<hr>
-
+<br><hr><br>
 ## Detecting Brute Force Attack in Splunk
 
 ## Conclusion
