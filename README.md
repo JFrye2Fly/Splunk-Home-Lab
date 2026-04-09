@@ -88,7 +88,7 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
 
  <h2>Brute Force Detection Alert Made</h2>
  <br>
- <p>I made an alert so that more than 5 successful logins in </p>
+ <p>I made an alert so that more 1 Brute Force success (at least 3 login failures and 1 success within a 5 min span) will trigger an alert, send and email and more! </p>
 
  <br>
   <img width="1373" height="361" alt="image" src="https://github.com/user-attachments/assets/46d1f34e-8612-4022-bf26-8bc0c4f0e25b" />
@@ -112,3 +112,8 @@ The most important skills I learned in this project are:
 
 
 ## P.S. I still need to add the powershell malicious activity I found!
+
+
+
+## Next Project
+*In my Next Project I will have my Kali VM and Windows VM on different Networks. I will have the PFSense be on both networks and it will be the Gateway for my Kali Machine so that I can implement firewall rules and capture firewall logs!*
