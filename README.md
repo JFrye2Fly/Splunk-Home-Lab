@@ -5,6 +5,8 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
 
 <img width="472" height="590" alt="image" src="https://github.com/user-attachments/assets/4194b315-dc45-427f-8fe7-326b550b1006" />
 
+<hr> 
+
 <br><br>
 ## Project Overview
 <img width="855" height="912" alt="image" src="https://github.com/user-attachments/assets/ef0f4739-d750-4906-9c24-7539c3b7cac1" />
