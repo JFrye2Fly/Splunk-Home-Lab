@@ -86,7 +86,14 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
  <img width="1879" height="870" alt="image" src="https://github.com/user-attachments/assets/c0cf2e55-1e6c-4782-9032-7ae0c118074a" />
 <br>
 
- 
+ <h2>Brute Force Detection Alert Made</h2>
+ <br>
+ <p>I made an alert so that more than 5 successful logins in </p>
+
+ <br>
+  <img width="1373" height="361" alt="image" src="https://github.com/user-attachments/assets/46d1f34e-8612-4022-bf26-8bc0c4f0e25b" />
+ <br>
+
  
 
 ## Conclusion
