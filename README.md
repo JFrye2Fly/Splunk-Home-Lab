@@ -58,7 +58,27 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
  <br><hr><br>
 
  ### WAS THE BRUTE FORCE ATTACK SUCCESSFUL??? 
- <H3></H3>
+ <h4>Query used to search for many failures and one successful logon</h4> <br>
+ 
+ <p>
+  index=* source="WinEventLog:Security" EventCode IN (4624, 4625)
+| where mvfind(Account_Name, "(?i)^splunk$") >= 0
+| bin _time span=30m
+| stats count(eval(EventCode=4625)) AS failures,
+        count(eval(EventCode=4624)) AS successes,
+        max(eval(if(EventCode=4624, _time, null()))) AS time_of_success
+        BY _time, host, Source_Network_Address
+| eval brute_force_confirmed=failures . " failures → 1 success"
+| eval time_of_success=strftime(time_of_success, "%Y-%m-%d %H:%M:%S")
+| eval window_start=strftime(_time, "%Y-%m-%d %H:%M:%S")
+| fields window_start, host, Source_Network_Address brute_force_confirmed, time_of_success
+| sort -window_start
+ </p>
+
+ <br>
+   <img width="1563" height="352" alt="image" src="https://github.com/user-attachments/assets/f4cc6297-9ae7-4d77-af9d-5f1bcffb5764" />
+ </br> 
+ 
  
 
 ## Conclusion
