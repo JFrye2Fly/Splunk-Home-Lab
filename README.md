@@ -78,6 +78,14 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
  <br>
    <img width="1563" height="352" alt="image" src="https://github.com/user-attachments/assets/f4cc6297-9ae7-4d77-af9d-5f1bcffb5764" />
  </br> 
+
+ <h4>No external IP successfully Brute Forced but someone on the machine did!</h4>
+ <h4> Maybe a stranger who found this computer successfully Brute Forced in... Still very dangerous!</h4>
+
+<br>
+ <img width="1879" height="870" alt="image" src="https://github.com/user-attachments/assets/c0cf2e55-1e6c-4782-9032-7ae0c118074a" />
+<br>
+
  
  
 
