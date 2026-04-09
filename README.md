@@ -45,6 +45,10 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
 
 <br><hr><br>
 ## Detecting Brute Force Attack in Splunk
+<h2>Windows Event Code 4625</h2>
+<p>We searched Windows Event Code 4625 and listed the account names and how many attempts each login failure attempt each account made </p>
+
+
 
 ## Conclusion
 
