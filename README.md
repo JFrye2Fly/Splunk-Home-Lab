@@ -120,9 +120,6 @@ Searching the top event codes from the Powershell Logs show many 4103 and 4104 E
 <img width="1307" height="897" alt="WOW2" src="https://github.com/user-attachments/assets/01295383-7892-451b-a6ec-b3881b1d009a" />
 <br>
 
-<br>
-<img width="1919" height="739" alt="2026-04-07 01_08_56-Settings" src="https://github.com/user-attachments/assets/c503440f-e037-4269-92d9-c1cd1d8d0a5e" />
-<br>
 
 #WE'VE BEEN HIT!!! THOSE FILES ALMOST CERTAINTLY HAVE COMPROMISED US, LETS FIND SOME PROOF QUICKLY AND THEN ISOLATE THIS MACHINE!
 
