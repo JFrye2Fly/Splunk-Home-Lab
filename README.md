@@ -94,7 +94,37 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
   <img width="1373" height="361" alt="image" src="https://github.com/user-attachments/assets/46d1f34e-8612-4022-bf26-8bc0c4f0e25b" />
  <br>
 
- 
+
+### FINDING SUSPICIOUS POWERSHELL SCRIPTS IN SPLUNK
+<h3>Did the malicious user use the ever popular powershell to run a malicious script</h3>
+
+Searching the top event codes from the Powershell Logs show many 4103 and 4104 EventCodes...
+
+<br>
+<img width="1907" height="733" alt="Many 4104 and 4103 events" src="https://github.com/user-attachments/assets/6ec4be19-67a7-41fc-aeec-973c55cb746f" />
+<br>
+
+## 4104 = The actual contents of the Powershell Scripts that were run
+<h3>I ran a search using the EventCode=4104 and I found something VERY INTERESTING</h3>
+
+**A file named *magicpayloadpotion.txt* was ran!!!**
+<img width="1883" height="937" alt="Magic Potion Payload" src="https://github.com/user-attachments/assets/5935853f-5571-4fe2-948b-e99864bb9f9e" />
+
+### That's enough, lets search for .txt files... Those can often be suspicous
+
+<br>
+<img width="1894" height="1004" alt="WOW1" src="https://github.com/user-attachments/assets/854d3378-9fd8-4763-adc2-2fede51c7217" />
+<br>
+
+<br>
+<img width="1307" height="897" alt="WOW2" src="https://github.com/user-attachments/assets/01295383-7892-451b-a6ec-b3881b1d009a" />
+<br>
+
+<br>
+<img width="1919" height="739" alt="2026-04-07 01_08_56-Settings" src="https://github.com/user-attachments/assets/c503440f-e037-4269-92d9-c1cd1d8d0a5e" />
+<br>
+
+#WE'VE BEEN HIT!!! THOSE FILES ALMOST CERTAINTLY HAVE COMPROMISED US, LETS FIND SOME PROOF QUICKLY AND THEN ISOLATE THIS MACHINE!
 
 ## Conclusion
 
