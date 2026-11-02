@@ -14,7 +14,7 @@ In this project I enable logging on the Windows Event and PFSense Firewall logs,
 
 ## Project Setup before the fun
 - Launching a PFSense, Windows and Kali VM
-- Enabling remote logging of DHCP, DNS and Firewall events on the PFSense firewall and sending it the Splunk instance on port 514
+- Enabling remote logging of DHCP, DNS, Firewall and system events on the PFSense firewall and sending it the Splunk instance on port 514
 
  <br> <img width="800" height="475" alt="image" src="https://github.com/user-attachments/assets/0cc95c0d-14ff-4fdb-b25c-e0e4ed02d7df" /><br>
 
