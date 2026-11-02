@@ -138,9 +138,3 @@ The most important skills I learned in this project are:
 - ### Enabling logging on PFSense and sending them to a remote log server (remote log server was the splunk instance
 
 
-## P.S. I still need to add the powershell malicious activity I found!
-
-
-
-## Next Project
-*In my Next Project I will have my Kali VM and Windows VM on different Networks. I will have the PFSense be on both networks and it will be the Gateway for my Kali Machine so that I can implement firewall rules and capture firewall logs!*
