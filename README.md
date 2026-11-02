@@ -129,13 +129,13 @@ In this project I set up different VMS including a PFSense Firewall Instance, si
 
 The most important skills I learned in this project are:
 
-### SplunkUniversal Forwarder
-### Log Ingestion and reasons it may fail (inputs.conf folder is a must!)
-### Configuring Splunk to receive logs
-### Splunk Query Language specifics
-#### Patience
-#### Using DHCP server from PFSense to dynamically assign IPs to the VMs 
-### #Enabling logging on PFSense and sending them to a remote log server (remote log server was the splunk instance
+- ### SplunkUniversal Forwarder
+- ### Log Ingestion and reasons it may fail (inputs.conf folder is a must!)
+- ### Configuring Splunk to receive logs
+- ### Splunk Query Language specifics
+- ### Patience
+- #### Using DHCP server from PFSense to dynamically assign IPs to the VMs 
+- ### Enabling logging on PFSense and sending them to a remote log server (remote log server was the splunk instance
 
 
 ## P.S. I still need to add the powershell malicious activity I found!
