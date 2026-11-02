@@ -121,9 +121,9 @@ Searching the top event codes from the Powershell Logs show many 4103 and 4104 E
 <br>
 
 
-# WE'VE BEEN HIT!!! THOSE FILES ALMOST CERTAINTLY HAVE COMPROMISED US, LETS FIND SOME PROOF QUICKLY AND THEN ISOLATE THIS MACHINE!
+### WE'VE BEEN HIT!!! THOSE FILES ALMOST CERTAINTLY HAVE COMPROMISED US, LETS FIND SOME PROOF QUICKLY AND THEN ISOLATE THIS MACHINE!
 
-## Conclusion
+# Conclusion
 
 In this project I set up different VMS including a PFSense Firewall Instance, simulated attacks on my Windows VM and ingested those logs into the Splunk instance on my computer. I then verified that Splunk received those logs and use Splunk queries to find and display that data. 
 
